@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 결국 false => 0, "", null, undefined, NaN 이외의 모든 값은 true로 평가된다.
+    // 암묵적인 형변환보다는 명시적인 게 좋다.
+    // if(arr.length > 0)
+    // 코드를 읽기 쉽게 짜는 것 -> 인기쟁이가 되는 비결이다.. => 내가 짠 코드인지도 모른다. (단 2개월이면 까먹기 충분하다.)
+    console.log(Boolean(0));  // false
+    console.log(Boolean(10)); // true
+    console.log(Boolean(NaN));  // false
+
+    // console.log(Boolean(""));  // false
+    // console.log(Boolean("hello"));  // true
+    // console.log(Boolean("0")); // true
+
+    // console.log(Boolean(null));  // false
+    // console.log(Boolean(undefined));   // false
+    // console.log(Boolean([]));  // true
+    // console.log(Boolean({}));  // ture
+
+  </script>
+</body>
+
+</html>
