@@ -261,8 +261,8 @@ watch([foo, bar], ([newFoo, newBar], [prevFoo, prevBar]) => {
 ## 📚 참고
 
 ### 💡 computed 주의사항
-![alt text](image-27.png)
-![alt text](image-28.png)
+![alt text](images/image-27.png)
+![alt text](images/image-28.png)
 
 ### 💡 Lifecycle Hooks 주의사항
 ![alt text](images/image-29.png)
